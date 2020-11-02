@@ -1,0 +1,137 @@
+body, html{
+    padding:0;
+    margin:0;
+    background-color: #2f4260;
+}
+
+.container {
+    width: 1500px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.container2 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 50px;
+    left: 180px;
+}
+
+.line {
+    width: 300px;
+    height: 4px;
+    position: absolute;
+    background-color: #baa27e;
+    top: 240px;
+    right: 92px;
+}
+
+.text-1 h1 {
+    position: absolute;
+    top: 5%;
+    right: 68px;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 22px;
+    line-height: 70px;
+    color: #baa27e;
+    z-index: 2;
+}
+
+.text-1 p {
+    position: absolute;
+    top: 33%;
+    right: 3.3%;
+    font-weight: bold;
+    font-size: 12px;
+    color: #baa27e;
+    z-index: 2;
+}
+
+.c2 {
+    width: 100px;
+    position: absolute;
+
+    z-index: 1;
+
+    animation-name: hym;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+
+.c {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #baa27e;
+
+    z-index: 1;
+
+    animation-name: hym;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+
+.h {
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    color: #baa27e;
+    
+    z-index: 1;
+
+    animation-name: hym;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+
+.e {
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    color: #baa27e;
+    
+    z-index: 1;
+
+    animation-name: hym;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+
+.t {
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    color: #baa27e;
+
+    z-index: 1;
+
+    animation-name: hym;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+
+@-webkit-keyframes hym {
+    0% {
+        top: 50%;
+        left: 46%;
+    }
+    100% {
+        top: 50%;
+        left: 70%;
+    }
+}
